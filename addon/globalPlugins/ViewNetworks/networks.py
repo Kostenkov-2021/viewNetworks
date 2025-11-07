@@ -1,9 +1,15 @@
 # -*- coding: UTF-8 -*-
 
-# Description: Dialog for viewing saved networks.
-# Author: Edilberto Fonseca.
-# Email: edilberto.fonseca@outlook.com.
-# Date of creation: 07/08/2022.
+"""
+Author: Edilberto Fonseca <edilberto.fonseca@outlook.com>
+Copyright: (C) 2025 Edilberto Fonseca
+
+This file is covered by the GNU General Public License.
+See the file COPYING for more details or visit:
+https://www.gnu.org/licenses/gpl-2.0.html
+
+Created on: 07/08/2022
+"""
 
 # Standard Python imports.
 import subprocess
@@ -13,7 +19,7 @@ import queueHandler
 import ui
 import wx
 
-# For translation process
+# Initialize translation support
 addonHandler.initTranslation()
 
 # Get the title of the addon defined in the summary.
